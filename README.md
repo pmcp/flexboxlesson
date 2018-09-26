@@ -2,18 +2,18 @@
 
 ## Introduction
 
-Use of CSS frameworks like Bootstrap and Foundation is easy and quick, but sometimes there are reasons to not use a framework. You might have a very simple website, and a framework might overdue it, or you have a very specific layout in mind, that would need a lot of tweaking of the base code of the framework.
+When creating a new web project, you will find yourself thinking about the main layout of your site of components. CSS frameworks like Bootstrap and Foundation, and their respective uses of grids and CSS-rules make it easy to quickly get a nicely styled layout. But sometimes there are reasons to not use such a framework. For example, yuou might have a very simple website, and a framework might overdue it. Or you have a very specific layout in mind, that would need a lot of tweaking of the base code of the framework.
 
-In a world full of different devices, it’s important to create a responsive design. In the beginning, html was not handy to create really nice layouts. When i started building websites, we heavily used the frame tag and the table tag. Both have it's merits, but there are some new modules that will help us create a bit more of a flexible layout.
+In a world full of different devices, it’s important to make sure your layout and design are responsive towards changes in sizes. Therefor, flexible layouts are a must.
 
-The two most promising layout modules are [**Grid**](https://caniuse.com/#feat=css-grid) and [**Flexbox**](https://caniuse.com/#feat=flexbox).
+Years ago, web developers heavily depended on the frame tag and the table tag. Both have it's merits, but there are some new modules that will help us create a bit more of a flexible layout. The two most promising layout modules are [**Grid**](https://caniuse.com/#feat=css-grid) and [**Flexbox**](https://caniuse.com/#feat=flexbox).
 
-The difference between grid and flexbox can be a bit confusing. Some feel that Grid is the successor to Flexbox, but this is not true. Although you can pretty much end up with the same layouts using one or the other, they each have their use cases where they shine the most.
+The difference between grid and flexbox can be a bit confusing. Some feel that Grid is the successor to Flexbox, but this is not correct. Although you can pretty much end up with the same layouts using one or the other, they each have their use cases where they shine the most.
 
 Generally speaking the easiest rule to follow is:
 
-- If you are building a layout that has two dimensions, columns and rows, go for Grid.
-- If you are building a layout that has one dimension, go for Flexbox, this will give you a bit more flexibility.
+- If you are building a larger layout system that has two dimensions, columns and rows, go for Grid.
+- If you are building a layout that has one dimension, go for Flexbox. This will give you a bit more flexibility.
 
 You can also combine Grid and Flexbox. You can for example create a full layout with Grid, and inside create some elements with Flexbox. Such an element is for example a menu bar.
 
