@@ -311,7 +311,7 @@ So we end up with this:
 </html>
 ```
 
-Notice the margin and padding added in the <ul> element. The <ul> element has browser inherent padding & margin by default. This way we get rid of it.
+Notice the margin and padding added in the ul element. The ul element has browser inherent padding & margin by default. This way we get rid of it.
 
 ### 5: Extra: a simple stacked bar chart
 
