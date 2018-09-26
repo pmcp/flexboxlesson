@@ -35,12 +35,12 @@ As you can see, we have a div, that has three child divs. These are the main but
 <body>
 
   <div>
-		<div>Home</div>
-		<div>The Team</div>
-		<div>Contact</div>
-		<div>Search</div>
+    <div>Home</div>
+    <div>The Team</div>
+    <div>Contact</div>
+    <div>Search</div>
   </div>
-  
+
 </body>
 
 </html>
@@ -50,13 +50,15 @@ To really see what we are doing, we'll add some colours, so once we start to pla
 
 Go ahead and add a border width and border colour to the divs and background colours to the children divs. You can do it inline or in the CSS in the head tag.
 
-    div {
-      border: 1px solid #6638F0;
-    }
-    
-    div > div {
-      background-color: #5CC9F5;
-    }
+```
+div {
+  border: 1px solid #6638F0;
+}
+
+div > div {
+  background-color: #5CC9F5;
+}
+```
 
 ### Step 2: Making it flex
 
@@ -88,10 +90,10 @@ To keep the overview, let's give the parent div a class, called "container". And
 <body>
 
   <div>
-		<div>Home</div>
-		<div>Team</div>
-		<div>Contact</div>
-		<div>Search</div>
+    <div>Home</div>
+    <div>Team</div>
+    <div>Contact</div>
+    <div>Search</div>
   </div>
   
 </body>
@@ -138,10 +140,10 @@ Just to finish it off, let's add a min-width to the buttons, and  let's align th
 
 ```
 .container > div {
-      background-color: #5CC9F5;
-      min-width: 80px;
-      text-align: center;
-    }
+  background-color: #5CC9F5;
+  min-width: 80px;
+  text-align: center;
+}
 ```
 
 ### Step 3: Adding Responsiveness
@@ -161,16 +163,16 @@ There are multiple UX ways to do this. The quickest way is by adding a "wrap" pr
 But thanks to media queries, we can have a bit more fun: we'll make the menu switch to a vertical stacked menu if the screen is smaller than 400px in width.
 
 ```
-    @media all and (max-width: 400px) {
-      .container {
-        display: flex;
-        flex-direction: column;
-      }
-
-      .search {
-        margin-left: 0;
-      }
+@media all and (max-width: 400px) {
+  .container {
+    display: flex;
+    flex-direction: column;
   }
+
+  .search {
+    margin-left: 0;
+  }
+}
 ```
 
 Now let's give the parent div a height, for example 200px, and evenly distribute the children.
@@ -178,9 +180,9 @@ Now let's give the parent div a height, for example 200px, and evenly distribute
 Now we can center the div's, using the align-self property:
 
 ```
-      .container > div {
-          align-self: center;
-      }
+.container > div {
+  align-self: center;
+}
 ```
 
 Now try to swap the order, and make Search the first item on mobile view.
@@ -221,11 +223,12 @@ This is the end result. Of course, as there is no one truth in coding, you can e
       .container > div {
           align-self: center;
       }
+      
       .search {
         margin-left: 0;
         order: -1;
       }
-
+      
     }
   </style>
 </head>
