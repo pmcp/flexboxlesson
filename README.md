@@ -2,11 +2,11 @@
 
 ## Introduction
 
-When creating a new web project, you will find yourself thinking about the main layout of your site of components. CSS frameworks like Bootstrap and Foundation, and their respective uses of grids and CSS-rules make it easy to quickly get a nicely styled layout. But sometimes there are reasons to not use such a framework. For example, yuou might have a very simple website, and a framework might overdue it. Or you have a very specific layout in mind, that would need a lot of tweaking of the base code of the framework.
+When creating a new web project, you will find yourself thinking about the main layout of your site of components. CSS frameworks like Bootstrap and Foundation, and their respective uses of grids and CSS-rules make it easy to quickly get a nicely styled layout. But sometimes there are reasons to not use such a framework. For example, you might have a very simple website, and a framework might be overkill. Or you have a very specific layout in mind, that would need a lot of tweaking of the base code of the framework.
 
-In a world full of different devices, it’s important to make sure your layout and design are responsive towards changes in sizes. Therefor, flexible layouts are a must.
+In a world full of different devices, it’s important to make sure your layout and design are responsive towards changes in sizes. Therefore, flexible layouts are a must.
 
-Years ago, web developers heavily depended on the frame tag and the table tag. Both have it's merits, but there are some new modules that will help us create a bit more of a flexible layout. The two most promising layout modules are [**Grid**](https://caniuse.com/#feat=css-grid) and [**Flexbox**](https://caniuse.com/#feat=flexbox).
+Years ago, web developers heavily depended on the frame tag and the table tag. Both have their merits, but there are some new modules that will help us create a bit more of a flexible layout. The two most promising layout modules are [**Grid**](https://caniuse.com/#feat=css-grid) and [**Flexbox**](https://caniuse.com/#feat=flexbox).
 
 The difference between grid and flexbox can be a bit confusing. Some feel that Grid is the successor to Flexbox, but this is not correct. Although you can pretty much end up with the same layouts using one or the other, they each have their use cases where they shine the most.
 
